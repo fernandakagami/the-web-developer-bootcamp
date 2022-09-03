@@ -1,0 +1,99 @@
+body {
+    background: rgb(246, 247, 250);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contentborder {
+    margin: 30px auto 0 auto;
+    width: 700px;
+    border: 1px solid rgb(229, 176, 133);
+    border-radius: 5px;
+}
+
+.contentsize {
+    width: 600px;
+    margin: 4em auto;      
+}
+
+form {
+    overflow: hidden;  
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 20px 0;
+    background: rgb(229, 176, 133);
+    padding: 15px 0;
+    border: 1px solid rgb(229, 176, 133);
+    border-radius: 3px;  
+    font-weight: bold;      
+}
+
+.firstname input, .lastname input, .email input, .password input {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 15px;    
+    margin-bottom: 25px;
+}
+
+.firstname label, .lastname label, .email label, .password label, .racelabel {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.firstname, .lastname {
+    float: left;
+    width: 50%;
+}
+
+.firstname input, .lastname input {
+    width: 95%;
+    margin-right: 20px;
+}
+
+.email input {
+    width: 80%;
+}
+
+.password input {
+    width: 50%;
+}
+
+.racemargin {
+    margin-bottom: 25px;
+}
+
+.racemargin div {
+    margin-bottom: 10px;
+}
+
+.age {
+    margin-bottom: 25px;
+}
+
+.age label {
+    margin-right: 10px;
+}
+
+.age select {
+    font-size: 15px;
+    padding: 3px;
+}
+
+.button {
+    text-align: center;
+}
+
+button {       
+    width: 90%;    
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 15px;
+    
+}

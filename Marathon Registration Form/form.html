@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;300&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contentborder">
+        <div class="contentsize">
+            <h1>Race Registration!</h1>
+
+            <form method="post" action="">
+                <div class="firstname">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" required>
+                </div>
+
+                <div class="lastname">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" required>
+                </div>
+
+                <div class="racemargin">
+                    <label class="racelabel">Select a Race:</label>
+                    <div>
+                        <input type="radio" name="race" id="fun" value="fun">
+                        <label for="fun">Fun Run 5K</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race" id="half" value="half">
+                        <label for="half">Half Marathon</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="race" id="full" value="full">
+                        <label for="full">Full Marathon</label>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                <div class="age">
+                    <label for="select">Select Age Group:</label>
+                    <select name="age" id="select" required>
+                        <option value="" selected hidden>Choose here</option>
+                        <option value="under">under 18</option>
+                        <option value="young">18-30</option>
+                        <option value="middle">30-50</option>
+                        <option value="old">50+</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <button>Register!</button>            
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
