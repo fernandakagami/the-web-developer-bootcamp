@@ -1,0 +1,110 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.backgroundnav {
+    background-image: url("img/sky.jpg");    
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;  
+    padding: 15px 10px;   
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+ul, li {        
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titlebox {
+    padding: 75px; 
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;    
+    color: white; 
+    padding-bottom: 20px;
+}
+
+.titlebox p {
+    color: white;
+    width: 50%;
+    text-align: justify;   
+}
+
+h2 {
+    font-size: 30px;  
+    padding: 50px;  
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img1 {
+    background-image: url("img/flower.jpg");
+    width: 30%;    
+    height: 300px;          
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 10px;
+
+}
+
+.img2 {
+    background-image: url("img/guarda.jpg");    
+    width: 30%;    
+    height: 300px; 
+    background-size: contain;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 10px
+}
+
+.img3 {
+    background-image: url("img/tree.jpg"); 
+    width: 30%;   
+    height: 300px;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 
+}
+
+.container p {
+    padding-bottom: 500px;    
+}
+
+    
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center;
+    }   
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
+}
