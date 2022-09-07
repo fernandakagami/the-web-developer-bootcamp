@@ -3,7 +3,7 @@ body {
 }
 
 .backgroundnav {
-    background-image: url("img/sky.jpg");    
+    background-image: url("../img/sky.jpg");    
 }
 
 nav {
@@ -59,7 +59,7 @@ h2 {
 }
 
 .img1 {
-    background-image: url("img/flower.jpg");
+    background-image: url("../img/flower.jpg");
     width: 30%;                 
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,14 +68,14 @@ h2 {
 }
 
 .img2 {
-    background-image: url("img/guarda.jpg");    
+    background-image: url("../img/guarda.jpg");    
     width: 30%;    
     background-size: cover;        
     margin: 10px;
 }
 
 .img3 {
-    background-image: url("img/tree.jpg"); 
+    background-image: url("../img/tree.jpg"); 
     width: 30%;   
     height: 300px;   
     background-size: cover;    
