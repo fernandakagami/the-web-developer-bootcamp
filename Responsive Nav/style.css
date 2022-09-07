@@ -60,9 +60,8 @@ h2 {
 
 .img1 {
     background-image: url("img/flower.jpg");
-    width: 30%;    
-    height: 300px;          
-    background-size: auto;
+    width: 30%;                 
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
 
@@ -71,40 +70,60 @@ h2 {
 .img2 {
     background-image: url("img/guarda.jpg");    
     width: 30%;    
-    height: 300px; 
-    background-size: contain;
-    background-size: auto;
-    background-repeat: no-repeat;
-    margin: 10px
+    background-size: cover;        
+    margin: 10px;
 }
 
 .img3 {
     background-image: url("img/tree.jpg"); 
     width: 30%;   
     height: 300px;   
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 10px 
+    background-size: cover;    
+    margin: 10px ;
 }
-
-.container p {
-    padding-bottom: 500px;    
-}
-
     
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 4em;
+    .titlebox {
+        margin-bottom: 0;
+        padding: 30px 30px 40px 30px;
     }
+    
+    h1 {
+        font-size: 1.5em;        
+    }
+    
+    .titlebox p {
+        font-size: 0.9em;
+        width: 85%;
+    }    
+   
+    nav {
+        padding-bottom: 25px;
+    }
+    
     nav, nav ul {
         flex-direction: column;
         align-items: center;
+    }
+    
+    h2 {
+        padding: 30px;
     }   
 }
 
 @media (max-width: 576px) {
     h1 {
-        font-size: 3em;
+        font-size: 1.3em;
     }
+
+    .titlebox p {
+        font-size: 0.7em; 
+        width: 100%;       
+    }   
+
+    h2 {        
+        padding: 25px;
+        font-size: 20px;
+    }   
 }
