@@ -34,4 +34,6 @@ This course includes:
 - Image Upload and Storage
 - Maps and Geocoding
 
-
+<a href="https://fernandakagami.github.io/The-Web-Developer-Bootcamp/01-MarathonRegistrationForm/">Project 01 - Marathon Registration Form</a><br>
+<a href="https://fernandakagami.github.io/The-Web-Developer-Bootcamp/02-ResponsiveNav/">Project 02 - Responsive Nav</a><br>
+<a href="https://fernandakagami.github.io/The-Web-Developer-Bootcamp/03-PricePanel/">Project 03 - Price Panel</a><br>
