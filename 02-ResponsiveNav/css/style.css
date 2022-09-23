@@ -53,30 +53,26 @@ h2 {
     justify-content: center;
 }
 
-.img1 {
-    background-image: url("../img/flower.jpg");
-    width: 30%;                 
+.container div {
+    width: 400px; 
+    height: 500px;                
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
+    background-position: center;
+}
 
+.img1 {
+    background-image: url("../img/flower.jpg");
 }
 
 .img2 {
-    background-image: url("../img/guarda.jpg");    
-    width: 30%;    
-    background-size: cover;        
-    margin: 10px;
+    background-image: url("../img/guarda.jpg");        
 }
 
 .img3 {
     background-image: url("../img/tree.jpg"); 
-    width: 30%;   
-    height: 300px;   
-    background-size: cover;    
-    margin: 10px ;
-}
-    
+}   
 
 @media (max-width: 768px) {
     .titlebox {
@@ -120,5 +116,10 @@ h2 {
     h2 {        
         padding: 25px;
         font-size: 20px;
-    }   
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
